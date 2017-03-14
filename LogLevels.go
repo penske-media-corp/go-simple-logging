@@ -1,0 +1,9 @@
+package logger
+
+const (
+	LOG_LEVEL_NONE = 0
+	LOG_LEVEL_ERROR = 1
+	LOG_LEVEL_WARN = 2
+	LOG_LEVEL_INFO = 3
+	LOG_LEVEL_DEBUG = 4
+)
