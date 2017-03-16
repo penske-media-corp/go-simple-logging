@@ -1,4 +1,4 @@
-package logger
+package logging
 
 const (
 	LOG_LEVEL_NONE = 0

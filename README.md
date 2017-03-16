@@ -1,20 +1,20 @@
-# go-simple-logger
-> A simple logger written in go that is easily configurable and geared towards simple use cases.
+# go-simple-logging
+> A set of simple logging utilities written in go that are easily configurable and geared towards simple use cases.
 
 ## Example
 
 ```go
 
-	logger := NewLogger()
-	logger.LogLevel = LOG_LEVEL_DEBUG
-	logger.Debug("foo")
-	logger.Debugf("debug: %s", "foo")
-	logger.Error(1)
-	logger.Errorf("error: %d", 1)
-	logger.Info("hello")
-	logger.Infof("info: %s", "hello")
-	logger.Warn(true)
-	logger.Warnf("warn: %t", true)
+	logger := logging.NewLogger()
+	logging.LogLevel = logging.LOG_LEVEL_DEBUG
+	logging.Debug("foo")
+	logging.Debugf("debug: %s", "foo")
+	logging.Error(1)
+	logging.Errorf("error: %d", 1)
+	logging.Info("hello")
+	logging.Infof("info: %s", "hello")
+	logging.Warn(true)
+	logging.Warnf("warn: %t", true)
 ```
 
 ## Changing log destination
